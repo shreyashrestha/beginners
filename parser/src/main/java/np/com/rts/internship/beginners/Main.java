@@ -11,10 +11,27 @@ public class Main {
   double value;
 
   public Main() {
-    // Write your code here
+for (int i=0; i<parseThis.length(); i++) {
+  char a_char = parseThis.charAt(i);
+  System.out.println(a_char);
+  if (i == 22) {
+    a = a_char;
+  }
 
+  if (i == 23) {
+    b = a_char;
 
   }
+  if (i == 24) {
+    c = a_char;
+
+  }
+
+}
+
+  String s= Str
+
+
 
   public static void main(String[] args) {
     new Main();

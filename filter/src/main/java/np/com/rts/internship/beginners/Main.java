@@ -24,6 +24,57 @@ public class Main {
     // Write your code here
 
 
+
+    Iterator<Animal> i= originalList.iterator();
+    while(i.hasNext()){
+      Animal animal=i.next();
+
+      if(animal.getType().equals("herbivore"))
+        herbivores.add(animal);
+
+
+
+      if(animal.getType().equals("carnivore"))
+        carnivores.add(animal);
+
+      if(animal.getType().equals("omnivore"))
+        omnivores.add(animal);
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
   public static void main(String[] args) {
     new Main();
